@@ -1,0 +1,13 @@
+
+pipi.png
+size: 547,547
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+smoke
+  rotate: false
+  xy: 2, 178
+  size: 543, 367
+  orig: 546, 374
+  offset: 2, 2
+  index: -1

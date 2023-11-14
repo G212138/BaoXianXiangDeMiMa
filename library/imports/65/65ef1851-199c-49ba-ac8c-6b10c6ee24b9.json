@@ -1,0 +1,325 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "pipi",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "KkCpA+ECyG2eQ5nkj3KzceIOE94",
+      "spine": "3.8.75",
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "effect_smoke",
+        "parent": "root",
+        "y": 562.5
+      },
+      {
+        "name": "smoke1",
+        "parent": "effect_smoke",
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "smoke2",
+        "parent": "effect_smoke",
+        "scaleX": 4,
+        "scaleY": 4
+      },
+      {
+        "name": "smoke3",
+        "parent": "effect_smoke",
+        "scaleX": 4,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "mask",
+        "bone": "root",
+        "attachment": "mask"
+      },
+      {
+        "name": "smoke",
+        "bone": "smoke1"
+      },
+      {
+        "name": "smoke3",
+        "bone": "smoke3"
+      },
+      {
+        "name": "smoke2",
+        "bone": "smoke2"
+      },
+      {
+        "name": "img_suo",
+        "bone": "root"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "smoke2": {
+            "smoke": {
+              "width": 546,
+              "height": 374
+            }
+          },
+          "smoke3": {
+            "smoke": {
+              "width": 546,
+              "height": 374
+            }
+          },
+          "mask": {
+            "mask": {
+              "type": "clipping",
+              "end": "smoke",
+              "vertexCount": 4,
+              "vertices": [
+                -1024,
+                0,
+                -1024,
+                1124.98,
+                1024.06,
+                1125.04,
+                1024.02,
+                -0.03
+              ],
+              "color": "ce3a3aff"
+            }
+          },
+          "smoke": {
+            "smoke": {
+              "width": 546,
+              "height": 374
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "yanwu": {
+        "slots": {
+          "smoke3": {
+            "color": [
+              {
+                "time": 0.3667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffcf",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffcf"
+              },
+              {
+                "time": 2.6,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.3667,
+                "name": "smoke"
+              }
+            ]
+          },
+          "smoke": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffcf",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5333,
+                "color": "ffffffcf"
+              },
+              {
+                "time": 2.6333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "smoke"
+              }
+            ]
+          },
+          "smoke2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffcf",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffffcf"
+              },
+              {
+                "time": 1.6333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "smoke"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "smoke1": {
+            "translate": [
+              {
+                "y": 220.87
+              },
+              {
+                "time": 1.5333,
+                "y": 208.47
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.606,
+                "y": 0.606,
+                "curve": 0,
+                "c2": 0.19,
+                "c3": 0.491,
+                "c4": 0.65
+              },
+              {
+                "time": 1.5333,
+                "x": 1.607,
+                "y": 1.347,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.6333,
+                "x": 2.219,
+                "y": 1.86
+              }
+            ]
+          },
+          "effect_smoke": {
+            "translate": [
+              {
+                "y": -211.99
+              }
+            ]
+          },
+          "smoke2": {
+            "translate": [
+              {
+                "y": 220.87
+              },
+              {
+                "time": 0.9667,
+                "y": 208.47
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.606,
+                "y": 0.606,
+                "curve": 0,
+                "c2": 0.19,
+                "c3": 0.491,
+                "c4": 0.65
+              },
+              {
+                "time": 0.9667,
+                "x": 1.607,
+                "y": 1.347,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6333,
+                "x": 2.219,
+                "y": 1.86
+              }
+            ]
+          },
+          "smoke3": {
+            "translate": [
+              {
+                "time": 0.3667,
+                "y": 220.87
+              },
+              {
+                "time": 1.6667,
+                "y": 208.47
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.3667,
+                "x": 0.606,
+                "y": 0.606,
+                "curve": 0,
+                "c2": 0.19,
+                "c3": 0.491,
+                "c4": 0.65
+              },
+              {
+                "time": 1.6667,
+                "x": 1.607,
+                "y": 1.347,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.6,
+                "x": 2.219,
+                "y": 1.86
+              }
+            ]
+          }
+        },
+        "drawOrder": [
+          {
+            "offsets": [
+              {
+                "slot": "smoke",
+                "offset": 3
+              },
+              {
+                "slot": "img_suo",
+                "offset": -4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "_atlasText": "\npipi.png\nsize: 547,547\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nsmoke\n  rotate: false\n  xy: 2, 178\n  size: 543, 367\n  orig: 546, 374\n  offset: 2, 2\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "0247e50a-286f-4dce-9ed1-c89c42b35b61"
+    }
+  ],
+  "textureNames": [
+    "pipi.png"
+  ],
+  "scale": 1
+}
